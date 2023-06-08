@@ -1,0 +1,17 @@
+/*
+Recursive Approach:
+
+Advantages: It is simple and concise, resembling the mathematical definition of the Fibonacci sequence. It is easy to understand and implement.
+Disadvantages: Recursive function calls can result in a large number of redundant calculations, leading to performance issues and slower execution for larger values of n.
+Iterative Loop Approach:
+
+Advantages: It is more efficient than the recursive approach since it avoids redundant calculations by iteratively computing the Fibonacci numbers in a bottom-up manner.
+Disadvantages: It requires additional variables to store intermediate results during the iteration. The code may be slightly more complex than the recursive approach.
+Dynamic Programming Approach:
+
+Advantages: It provides an optimal solution by storing previously computed Fibonacci numbers in an array. It eliminates redundant calculations and improves performance compared to the recursive approach.
+Disadvantages: It requires additional space to store the array of Fibonacci numbers. It may have a higher memory overhead for larger values of n compared to the iterative loop approach.
+
+
+In summary, the recursive approach is simple but inefficient, the iterative loop approach is efficient
+*/
